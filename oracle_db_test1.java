@@ -1,6 +1,7 @@
 import java.sql.*;
 
-//(0) C:\ora11gr2\product\11.2.0\client_1\network\admin\tnsnames.ora
+//https://mvnrepository.com/artifact/com.oracle/ojdbc14
+//C:\ora11gr2\product\11.2.0\client_1\network\admin\tnsnames.ora
 //(1) download ojdbc14.jar
 //(2) paste into jre/lib/ext folder
 //(3) set classpath=C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext\ojdbc14.jar;.;
