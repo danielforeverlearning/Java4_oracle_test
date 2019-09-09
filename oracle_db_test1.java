@@ -22,7 +22,7 @@ class OracleCon {
 			Statement stmt = con.createStatement();
 			
 			//step4 execute query
-			ResultSet rs   = stmt.executeQuery("SELECT STR1, STR2 FROM MYTABLE");
+			ResultSet rs = stmt.executeQuery("SELECT OWNER,TABLE_NAME FROM all_tables WHERE TABLE_NAME LIKE '%BANK%'");
 			
 			while(rs.next())
 				System.out.println(rs.getString(1) + "   " + rs.getString(2));
